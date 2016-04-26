@@ -137,6 +137,14 @@ Você continuou editando e hoje, com certeza, o programa está funcionando errad
 Como reverter o seu programa de volta para a versão de anteontem, 
 que funcionava direitinho, se ela já foi sobrescrita vez após vez ao longo de dois últimos dias?
 
+## *Controle de Versão com Git*
+
 Resposta: **Sistema de Controle de Versão!!!** 
 
 <https://git-scm.com/>
+
+<https://github.com/>
+
+Separe um tempo para estudar isso.
+
+Valerá a pena!
