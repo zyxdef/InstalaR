@@ -4,7 +4,9 @@ author: "Marcelo Ventura Freire (EACH/USP)"
 output: ioslides_presentation
 ---
 
-## O que veremos nesse curso
+
+
+## O Que Veremos Neste Curso
 1. Instalação do Programa Estatístico `R`
 2. Instalação do Ambiente de Desenvolvimento Integrado (IDE) `R Studio`
 3. Abas e Navegação no R Studio
@@ -13,24 +15,35 @@ output: ioslides_presentation
     - *R Markdown*
     - *Controle de versão com Git*
 
+
+
+
+
 # Instalando e Rodando o Básico
 
+
+
 ## Instalando o R
-* No Windows
-    * Acesse no browser   
+
+- No Windows
+    - Acesse no browser   
     <https://cran.r-project.org/bin/windows/base/>  
     e baixe o instalador adequado
-* No Linux
-    * Execute no terminal o comando  
-       `sudo apt-get install r-recommended` 
-* No Mac OS X
-    * Acesse no browser    
+- No Linux
+    - Execute no terminal o comando  
+       `sudo apt install r-recommended` 
+- No Mac OS X
+    - Acesse no browser    
     <https://cran.r-project.org/bin/macosx/>   
     e baixe o instalador adequado
+
+
 
 ## Instalando o R
 
 ![](cran.site.png)
+
+
 
 ## Instalando o R Studio
 
@@ -45,54 +58,111 @@ ou
 e escolha a instalação adequada para o seu sistema operacional 
 (Windows, Linux ou Mac OS X)
 
+
+
 ## Instalando o R Studio
 
 ![](rstudio.site.png)
 
-# Rodando o R Studio
+
+
+
+
+# Executando o R Studio
+
+
+
 ## R Studio
 
 ![](RStudio.png)
 
-## Abas e navegação no R Studio
-1. Editando um Script
-1. Rodando um Script
+
+
+## Abas e Navegação no R Studio
+
+1. Editando um *Script*
+1. Executando Comandos no R
+1. Executando um *Script*
 1. Acessando o Help
 2. Visualizando Gráficos
 3. Inspecionando Variáveis
 4. Histórico de Comandos 
 5. Carregando Pacotes
 
-## Editando um Script
+
+
+## Editando um *Script*
 
 ![](RStudio.1.png)
 
-## Rodando um Script
+
+
+## Executando Comandos no R
 
 ![](RStudio.2.png)
+
+Digite na Aba `Console`
+```{r}
+2 + 2
+```
+
+
+
+## Executando um *Script*
+
+![](RStudio.1.png)
+
+
+
+## Executando um *Script*
+
+Na janela de edição, 
+
+- Para executar todo o script
+    - clique no botão `Source` 
+    - ou tecle `[Ctrl]` + `[Shift]` + `S`
+- Para executar apenas algumas linhas do seu script,
+    - selecione as linhas que você quer executar e tecle `[Ctrl]` + `[Enter]`
+
+
 
 ## Acessando o Help
 
 ![](RStudio.3.png)
 
+
+
 ## Visualizando Gráficos
 
 ![](RStudio.4.png)
+
+
 
 ## Inspecionando Variáveis
 
 ![](RStudio.5.png)
 
+
+
 ## Histórico de Comandos 
 
 ![](RStudio.6.png)
+
+
 
 ## Carregando Pacotes
 
 ![](RStudio.7.png)
 
+
+
+
+
 # Instalação de Pacotes do R
-## Instalação de pacotes com o R Studio
+
+
+
+## Instalação de Pacotes com o R Studio
 
 Para instalar pacotes no R a partir do R Studio, 
 
@@ -104,27 +174,45 @@ na janela de diálogo `Install Packages`
 4) habilite a opção `Install dependencies`
 5) clique no botão `Install`
 
-## Instalação de pacotes com o R Studio
+
+
+## Instalação de Pacotes com o R Studio
 
 ![](RStudio.8.png)
 
-## Instalação de pacotes com o R Studio
+
+
+## Instalação de Pacotes com o R Studio
+
 Instale os pacotes 
 
 1. didáticos `swirl` e `Rcmdr`
 2. de importação e exportação de dados `readxl`
-3. de manuseio de dados `dplyr`, `tidyr`, `reshape`, `reshape2`, `lubridate`, `magrittr` e `car`
+3. de manuseio de dados `dplyr`, `tidyr`, `reshape`, `reshape2`, `lubridate`,
+    `magrittr` e `car`
+
+
+
+
 
 # Tópicos Extra
+
+
+
 ## *R Markdown*
 
-Entre no menu `File > New File > R Markdown...` e crie um arquivo de apresentação (em *Presentation*) ou um documento PDF ou HTML (em *Document*).
+Entre no menu `File > New File > R Markdown...` e crie um arquivo de 
+apresentação (em *Presentation*) ou um documento PDF ou HTML (em *Document*).
 
 Eu criei esta apresentação com o R Markdown no R Studio.
+
+
 
 ## *R Markdown*
 
 ![](RStudio.9.png)
+
+
 
 ## *Controle de Versão com Git*
 
@@ -134,8 +222,10 @@ Ontem você fez algumas edições e o seu programa começou a se comportar estra
 
 Você continuou editando e hoje, com certeza, o programa está funcionando errado.
 
-Como reverter o seu programa de volta para a versão de anteontem, 
-que funcionava direitinho, se ela já foi sobrescrita vez após vez ao longo de dois últimos dias?
+Como reverter o seu programa de volta para a versão de anteontem, que funcionava 
+direitinho, se ela já foi sobrescrita vez após vez ao longo de dois últimos dias?
+
+
 
 ## *Controle de Versão com Git*
 
