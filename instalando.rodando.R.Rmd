@@ -37,6 +37,8 @@ output: ioslides_presentation
     <https://cran.r-project.org/bin/macosx/>   
     e baixe o instalador adequado
 
+**Abra a opção adequada para o seu laptop e vamos instalar!**
+
 
 
 ## Instalando o R
@@ -202,7 +204,7 @@ Instale os pacotes
 ## *R Markdown*
 
 Entre no menu `File > New File > R Markdown...` e crie um arquivo de 
-apresentação (em *Presentation*) ou um documento PDF ou HTML (em *Document*).
+apresentação (em *Presentation*) ou um documento HTML (em *Document*).
 
 Eu criei esta apresentação com o R Markdown no R Studio.
 
@@ -211,6 +213,27 @@ Eu criei esta apresentação com o R Markdown no R Studio.
 ## *R Markdown*
 
 ![](RStudio.9.png)
+
+
+
+## *R Markdown*
+
+Após a instalação, o R Studio suporte básico ao uso do R Markdown, para gerar 
+documentos em HTML.
+
+Contudo é possível gerar documentos PDF e DOCX também após a instalação de 
+suporte adicional.
+
+Para isso, é necessário instalar o pacote `knitR` do R e os softwares livres 
+`pandoc` e `LaTeX`.
+
+
+
+## *R Markdown*
+
+<http://pandoc.org/installing.html>
+
+![](RStudio.10.png)
 
 
 
@@ -223,7 +246,8 @@ Ontem você fez algumas edições e o seu programa começou a se comportar estra
 Você continuou editando e hoje, com certeza, o programa está funcionando errado.
 
 Como reverter o seu programa de volta para a versão de anteontem, que funcionava 
-direitinho, se ela já foi sobrescrita vez após vez ao longo de dois últimos dias?
+direitinho, se ela já foi sobrescrita vez após vez ao longo de dois últimos 
+dias?
 
 
 
