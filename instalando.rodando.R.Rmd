@@ -1,10 +1,11 @@
 ---
 title: "Instalando e Rodando o Básico do R"
 author: "Marcelo Ventura Freire (EACH/USP)"
-output: 
-  beamer_presentation: 
-    colortheme: dolphin
-    theme: Bergen
+output:
+  ioslides_presentation: default
+  # beamer_presentation:
+  #   colortheme: dolphin
+  #   theme: Bergen
 ---
 
 
