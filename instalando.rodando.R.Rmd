@@ -2,20 +2,26 @@
 title: "Instalando e Rodando o Básico do R"
 author: "Marcelo Ventura Freire (EACH/USP)"
 output:
-  ioslides_presentation: default
-  # beamer_presentation:
-  #   colortheme: dolphin
-  #   theme: Bergen
+    ioslides_presentation:
+        self_contained: true
+        smaller: true
+        smart: true
+    # html_document:
+    #     toc: true
+    #     toc_float: true
+    #     toc_depth: 2
+    #     self_contained: true
+    #     smart: true
 ---
 
 
 
 ## O Que Veremos Neste Curso
-1. Instalação do Programa Estatístico `R`
-2. Instalação do Ambiente de Desenvolvimento Integrado (IDE) `R Studio`
-3. Abas e Navegação no R Studio
-4. Instalação de Pacotes do R através do R Studio
-5. Tópicos Extra
+1. [Instalação do Programa Estatístico `R`](#r)
+1. [Instalação do Ambiente de Desenvolvimento Integrado (IDE) `R Studio`](#rstudio)
+1. [Abas e Navegação no R Studio](#navegacao)
+1. [Instalação de Pacotes do R através do R Studio](#pacotes)
+1. [Tópicos Extra](#extras)
     - *R Markdown*
     - *Controle de versão com Git*
 
@@ -27,7 +33,7 @@ output:
 
 
 
-## Instalando o R
+## Instalando o R {#r}
 
 - No Windows
     - Acesse no browser   
@@ -51,7 +57,7 @@ output:
 
 
 
-## Instalando o R Studio
+## Instalando o R Studio {#rstudio}
 
 Acesse
 
@@ -84,7 +90,7 @@ e escolha a instalação adequada para o seu sistema operacional
 
 
 
-## Abas e Navegação no R Studio
+## Abas e Navegação no R Studio {#navegacao}
 
 1. Editando um *Script*
 1. Executando Comandos no R
@@ -164,7 +170,7 @@ Na janela de edição,
 
 
 
-# Instalação de Pacotes do R
+# Instalação de Pacotes do R {#pacotes}
 
 
 
@@ -201,7 +207,7 @@ Instale os pacotes
 
 
 
-# Tópicos Extra
+# Tópicos Extra {#extras}
 
 
 
