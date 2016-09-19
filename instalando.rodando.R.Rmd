@@ -2,6 +2,9 @@
 title: "Instalando e Rodando o Básico do R"
 author: "Marcelo Ventura Freire (EACH/USP)"
 output:
+    # pdf_document:
+    #     toc: true
+    #     toc_depth: 2
     ioslides_presentation:
         self_contained: true
         smaller: true
@@ -17,11 +20,11 @@ output:
 
 
 ## O Que Veremos Neste Curso
-1. [Instalação do Programa Estatístico `R`](#r)
-1. [Instalação do Ambiente de Desenvolvimento Integrado (IDE) `R Studio`](#rstudio)
-1. [Abas e Navegação no R Studio](#navegacao)
-1. [Instalação de Pacotes do R através do R Studio](#pacotes)
-1. [Tópicos Extra](#extras)
+1. [Instalação do Programa Estatístico `R`](#4)
+1. [Instalação do Ambiente de Desenvolvimento Integrado (IDE) `R Studio`](#6)
+1. [Executando o `R Studio`](#9)
+1. [Instalação de Pacotes do `R` com o `R Studio`](#21)
+1. [Tópicos Extra](#25)
     - *R Markdown*
     - *Controle de versão com Git*
 
@@ -29,11 +32,11 @@ output:
 
 
 
-# Instalando e Rodando o Básico
+# Instalação do Programa Estatístico `R`
 
 
 
-## Instalando o R {#r}
+## Instalação do Programa Estatístico `R`
 
 - No Windows
     - Acesse no browser   
@@ -51,13 +54,19 @@ output:
 
 
 
-## Instalando o R
+## Instalação do Programa Estatístico `R`
 
 ![](cran.site.png)
 
 
 
-## Instalando o R Studio {#rstudio}
+
+
+# Instalação do IDE `R Studio`
+
+
+
+## Instalação do IDE `R Studio`
 
 Acesse
 
@@ -72,7 +81,7 @@ e escolha a instalação adequada para o seu sistema operacional
 
 
 
-## Instalando o R Studio
+## Instalação do IDE `R Studio`
 
 ![](rstudio.site.png)
 
@@ -90,7 +99,7 @@ e escolha a instalação adequada para o seu sistema operacional
 
 
 
-## Abas e Navegação no R Studio {#navegacao}
+## Abas e Navegação no R Studio
 
 1. Editando um *Script*
 1. Executando Comandos no R
@@ -170,11 +179,11 @@ Na janela de edição,
 
 
 
-# Instalação de Pacotes do R {#pacotes}
+# Instalação de Pacotes do `R` com o `R Studio`
 
 
 
-## Instalação de Pacotes com o R Studio
+## Instalação de Pacotes do `R` com o `R Studio`
 
 Para instalar pacotes no R a partir do R Studio, 
 
@@ -188,13 +197,13 @@ na janela de diálogo `Install Packages`
 
 
 
-## Instalação de Pacotes com o R Studio
+## Instalação de Pacotes do `R` com o `R Studio`
 
 ![](RStudio.8.png)
 
 
 
-## Instalação de Pacotes com o R Studio
+## Instalação de Pacotes do `R` com o `R Studio`
 
 Instale os pacotes 
 
@@ -207,7 +216,7 @@ Instale os pacotes
 
 
 
-# Tópicos Extra {#extras}
+# Tópicos Extra
 
 
 
