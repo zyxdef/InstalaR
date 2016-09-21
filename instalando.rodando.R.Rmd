@@ -281,3 +281,14 @@ Resposta: **Sistema de Controle de Versão!!!**
 Separe um tempo para estudar isso.
 
 Valerá a pena!
+
+***
+
+******** AQUI!!! *********
+
+Fazer um slide sobre instalação do git e do markdown no windows
+
+No windows, não vem com a opção "Create git repository" em Create Project
+
+
+
