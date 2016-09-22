@@ -303,3 +303,5 @@ No Windows e OS X
 
 já instala uma interface gráfica (GUI)
 
+Pacote `installr` para instalar a partir do R, com as funções `install.git()`, 
+`install.pandoc()`, `install.R()`
