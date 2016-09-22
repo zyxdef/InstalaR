@@ -282,13 +282,24 @@ Separe um tempo para estudar isso.
 
 Valerá a pena!
 
-***
 
-******** AQUI!!! *********
+<!-- ********************************************************************* -->
+#
+
+ AQUI!!! 
 
 Fazer um slide sobre instalação do git e do markdown no windows
 
 No windows, não vem com a opção "Create git repository" em Create Project
 
+No Linux
 
+        sudo apt install git git-gui
+        git gui
+
+No Windows e OS X
+
+        https://git-scm.com/downloads
+
+já instala uma interface gráfica (GUI)
 
